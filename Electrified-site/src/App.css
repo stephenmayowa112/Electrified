@@ -1,0 +1,7 @@
+import ElectrifiedEngineeringSite from "./ElectrifiedEngineeringSite";
+
+function App() {
+  return <ElectrifiedEngineeringSite />;
+}
+
+export default App;
