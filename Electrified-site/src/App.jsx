@@ -18,9 +18,11 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           {/* Logo Section */}
           <div className="flex items-center space-x-2 sm:space-x-3">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center bg-green-600 text-white font-bold rounded-full text-xs sm:text-base">
-              EEL
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="Electrified Engineering Ltd Logo" 
+              className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
+            />
             <div>
               <h1 className="font-semibold text-gray-900 text-sm sm:text-base">
                 Electrified Engineering Ltd
