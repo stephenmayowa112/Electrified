@@ -74,7 +74,7 @@ function App() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden bg-white border-t shadow-lg">
+          <div className="lg:hidden bg-white/95 backdrop-blur-sm border-t shadow-lg">
             <div className="px-4 py-3 space-y-3">
               <Link to="/" className="block text-gray-700 hover:text-green-600 py-2" onClick={() => setIsMenuOpen(false)}>Home</Link>
               <Link to="/about" className="block text-gray-700 hover:text-green-600 py-2" onClick={() => setIsMenuOpen(false)}>About</Link>
