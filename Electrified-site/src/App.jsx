@@ -74,24 +74,33 @@ function App() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden bg-white/95 backdrop-blur-sm border-t shadow-lg">
-            <div className="px-4 py-3 space-y-3">
-              <Link to="/" className="block text-gray-700 hover:text-green-600 py-2" onClick={() => setIsMenuOpen(false)}>Home</Link>
-              <Link to="/about" className="block text-gray-700 hover:text-green-600 py-2" onClick={() => setIsMenuOpen(false)}>About</Link>
-              <Link to="/services" className="block text-gray-700 hover:text-green-600 py-2" onClick={() => setIsMenuOpen(false)}>Services</Link>
-              <Link to="/why-us" className="block text-gray-700 hover:text-green-600 py-2" onClick={() => setIsMenuOpen(false)}>Why Us</Link>
-              <Link to="/clients" className="block text-gray-700 hover:text-green-600 py-2" onClick={() => setIsMenuOpen(false)}>Clients</Link>
-              <Link to="/team" className="block text-gray-700 hover:text-green-600 py-2" onClick={() => setIsMenuOpen(false)}>Team</Link>
-              <Link to="/contact" className="block text-gray-700 hover:text-green-600 py-2" onClick={() => setIsMenuOpen(false)}>Contact</Link>
-              <Link
-                to="/contact"
-                className="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md shadow hover:bg-green-700"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Get a Quote
-              </Link>
+          <>
+            {/* Backdrop overlay */}
+            <div 
+              className="fixed inset-0 bg-black/30 z-40 lg:hidden"
+              onClick={() => setIsMenuOpen(false)}
+            ></div>
+            
+            {/* Menu dropdown */}
+            <div className="relative lg:hidden bg-white/50 backdrop-blur-md border-t shadow-lg z-50">
+              <div className="px-4 py-3 space-y-3">
+                <Link to="/" className="block text-gray-700 hover:text-green-600 py-2 font-medium" onClick={() => setIsMenuOpen(false)}>Home</Link>
+                <Link to="/about" className="block text-gray-700 hover:text-green-600 py-2 font-medium" onClick={() => setIsMenuOpen(false)}>About</Link>
+                <Link to="/services" className="block text-gray-700 hover:text-green-600 py-2 font-medium" onClick={() => setIsMenuOpen(false)}>Services</Link>
+                <Link to="/why-us" className="block text-gray-700 hover:text-green-600 py-2 font-medium" onClick={() => setIsMenuOpen(false)}>Why Us</Link>
+                <Link to="/clients" className="block text-gray-700 hover:text-green-600 py-2 font-medium" onClick={() => setIsMenuOpen(false)}>Clients</Link>
+                <Link to="/team" className="block text-gray-700 hover:text-green-600 py-2 font-medium" onClick={() => setIsMenuOpen(false)}>Team</Link>
+                <Link to="/contact" className="block text-gray-700 hover:text-green-600 py-2 font-medium" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+                <Link
+                  to="/contact"
+                  className="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md shadow hover:bg-green-700"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Get a Quote
+                </Link>
+              </div>
             </div>
-          </div>
+          </>
         )}
       </nav>
 
