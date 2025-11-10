@@ -21,7 +21,7 @@ function App() {
             <img 
               src="/logo.png" 
               alt="Electrified Engineering Ltd Logo" 
-              className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
+              className="h-10 w-auto sm:h-12 md:h-14 object-contain"
             />
             <div>
               <h1 className="font-semibold text-gray-900 text-sm sm:text-base">
