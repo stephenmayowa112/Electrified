@@ -133,74 +133,7 @@ export default function Team() {
         </div>
       </section>
 
-      {/* Join Our Team */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Join Our Growing Team
-          </h2>
-          <p className="text-gray-600 mb-8 leading-relaxed">
-            We're always looking for talented, passionate individuals to join our mission of powering Africa's future. If you're interested in making a difference in the renewable energy and facilities management sector, we'd love to hear from you.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/contact"
-              className="px-8 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium"
-            >
-              View Open Positions
-            </a>
-            <a
-              href="mailto:careers@electrifiedengineering.com"
-              className="px-8 py-3 border-2 border-orange-600 text-orange-600 rounded-lg hover:bg-orange-600 hover:text-white transition-all duration-300 font-medium"
-            >
-              Send Your CV
-            </a>
-          </div>
-        </div>
-      </section>
 
-      {/* Company Culture */}
-      <section className="py-12 sm:py-16 px-4 sm:px-6 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Work With Us
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-md text-center">
-              <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🚀</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Growth Opportunities</h3>
-              <p className="text-gray-600 text-sm">
-                Continuous learning and career development in a rapidly growing industry
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-md text-center">
-              <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🤝</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Collaborative Culture</h3>
-              <p className="text-gray-600 text-sm">
-                Work with passionate professionals in a supportive team environment
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-md text-center">
-              <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🌍</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Make an Impact</h3>
-              <p className="text-gray-600 text-sm">
-                Contribute to sustainable energy solutions that transform communities
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
