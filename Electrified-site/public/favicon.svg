@@ -1,4 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" fill="#ea580c" rx="15"/>
-  <text x="50" y="50" font-family="Arial, sans-serif" font-size="60" text-anchor="middle" dominant-baseline="central">⚡</text>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" fill="url(#grad)" rx="20"/>
+  <path d="M 55 20 L 35 55 L 50 55 L 45 80 L 70 45 L 55 45 Z" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
 </svg>
