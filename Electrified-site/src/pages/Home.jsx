@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Sun, Zap, Building2, Shield, ArrowRight, ChevronLeft, ChevronRight, Phone } from "lucide-react";
 import ServiceCard from "../components/ServiceCard";
-import TestimonialCard from "../components/TestimonialCard";
 import StatCounter from "../components/StatCounter";
 import SEO from "../components/SEO";
 
@@ -12,30 +11,6 @@ const bannerImages = [
   "/hIMG_003.jpg",
   "/hIMG_004.jpeg",
   "/hIMG_005.jpg"
-];
-
-const testimonials = [
-  {
-    name: "Adebayo Johnson",
-    position: "Facilities Manager",
-    company: "Sterling Bank",
-    content: "EEL has transformed our power infrastructure. Their solar installation reduced our energy costs by 60% and their maintenance service is exceptional.",
-    rating: 5
-  },
-  {
-    name: "Chioma Okafor",
-    position: "Operations Director",
-    company: "9 Mobile",
-    content: "Professional, reliable, and innovative. Their backup power solutions have ensured zero downtime for our critical operations nationwide.",
-    rating: 5
-  },
-  {
-    name: "Ibrahim Mohammed",
-    position: "Property Manager",
-    company: "CBN Residential",
-    content: "The facilities management services provided by EEL are top-notch. They handle everything from maintenance to security with utmost professionalism.",
-    rating: 5
-  }
 ];
 
 const clientLogos = [
@@ -241,26 +216,6 @@ export default function Home() {
             >
               View All Services
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-12 sm:py-16 px-4 sm:px-6 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What Our Clients Say
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Don't just take our word for it - hear from our satisfied clients
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {testimonials.map((testimonial, idx) => (
-              <TestimonialCard key={idx} {...testimonial} />
-            ))}
           </div>
         </div>
       </section>

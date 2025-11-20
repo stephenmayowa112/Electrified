@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Building2, MapPin, Star } from "lucide-react";
+import { Building2, MapPin } from "lucide-react";
 import SEO from "../components/SEO";
 
 const clients = [
@@ -8,16 +8,14 @@ const clients = [
     logo: "/logos/sterling.png",
     location: "Lagos and South West",
     industry: "Banking",
-    services: "Solar Installation, Facilities Management",
-    testimonial: "EEL has transformed our power infrastructure with exceptional service."
+    services: "Solar Installation, Facilities Management"
   },
   {
     name: "9 Mobile",
     logo: "/logos/9mobile.png",
     location: "Nationwide",
     industry: "Telecommunications",
-    services: "Backup Power Systems, Generator Maintenance",
-    testimonial: "Reliable and professional service across all our locations."
+    services: "Backup Power Systems, Generator Maintenance"
   },
   {
     name: "CBN Residential",
@@ -25,7 +23,6 @@ const clients = [
     location: "Lagos",
     industry: "Real Estate",
     services: "Facilities Management",
-    testimonial: "Comprehensive FM services that exceed our expectations.",
     note: "Sub-contracted by Knight Frank"
   },
   {
@@ -34,7 +31,6 @@ const clients = [
     location: "Lagos",
     industry: "Technology",
     services: "Power Solutions, Facilities Management",
-    testimonial: "Professional and efficient service delivery.",
     note: "Sub-contracted by JLL"
   },
   {
@@ -43,7 +39,6 @@ const clients = [
     location: "Lagos",
     industry: "Consulting",
     services: "Facilities Management",
-    testimonial: "Top-tier facilities management services.",
     note: "Sub-contracted by Propel"
   },
   {
@@ -51,8 +46,7 @@ const clients = [
     logo: "/logos/rjolad.png",
     location: "Lagos",
     industry: "Healthcare",
-    services: "Backup Power, Solar Installation",
-    testimonial: "Reliable power solutions for critical healthcare operations."
+    services: "Backup Power, Solar Installation"
   }
 ];
 
@@ -92,14 +86,7 @@ function ClientCard({ client }) {
           <p className="text-xs text-gray-500 italic mb-3">{client.note}</p>
         )}
 
-        <div className="pt-4 border-t border-gray-100">
-          <div className="flex items-center mb-2">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-            ))}
-          </div>
-          <p className="text-sm text-gray-600 italic">"{client.testimonial}"</p>
-        </div>
+
       </div>
     </div>
   );
@@ -212,49 +199,6 @@ export default function Clients() {
           >
             Become Our Next Success Story
           </a>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-12 sm:py-16 px-4 sm:px-6 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What Our Clients Say
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-md">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-6 italic">
-                "EEL has been instrumental in transforming our power infrastructure. Their solar installation reduced our energy costs by 60%, and their maintenance service is exceptional. Highly recommended!"
-              </p>
-              <div>
-                <h4 className="font-semibold text-gray-900">Adebayo Johnson</h4>
-                <p className="text-sm text-gray-600">Facilities Manager, Sterling Bank</p>
-              </div>
-            </div>
-
-            <div className="bg-white p-8 rounded-xl shadow-md">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-6 italic">
-                "Professional, reliable, and innovative. Their backup power solutions have ensured zero downtime for our critical operations nationwide. A true partner in our success."
-              </p>
-              <div>
-                <h4 className="font-semibold text-gray-900">Chioma Okafor</h4>
-                <p className="text-sm text-gray-600">Operations Director, 9 Mobile</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
