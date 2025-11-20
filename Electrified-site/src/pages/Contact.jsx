@@ -124,7 +124,7 @@ export default function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg hover-lift">
-                <MapPin className="w-6 h-6 text-green-600 mt-1 flex-shrink-0" />
+                <MapPin className="w-6 h-6 text-orange-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Office Address</h3>
                   <p className="text-sm text-gray-600">
@@ -134,27 +134,27 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg hover-lift">
-                <Phone className="w-6 h-6 text-green-600 mt-1 flex-shrink-0" />
+                <Phone className="w-6 h-6 text-orange-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Phone Number</h3>
-                  <a href="tel:+2348082999567" className="text-sm text-gray-600 hover:text-green-600">
+                  <a href="tel:+2348082999567" className="text-sm text-gray-600 hover:text-orange-600">
                     +234 (0) 808 299 9567
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg hover-lift">
-                <Mail className="w-6 h-6 text-green-600 mt-1 flex-shrink-0" />
+                <Mail className="w-6 h-6 text-orange-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Email Address</h3>
-                  <a href="mailto:info@electrifiedengineering.com" className="text-sm text-gray-600 hover:text-green-600 break-all">
+                  <a href="mailto:info@electrifiedengineering.com" className="text-sm text-gray-600 hover:text-orange-600 break-all">
                     info@electrifiedengineering.com
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg hover-lift">
-                <Globe className="w-6 h-6 text-green-600 mt-1 flex-shrink-0" />
+                <Globe className="w-6 h-6 text-orange-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Website</h3>
                   <p className="text-sm text-gray-600 break-all">
@@ -164,7 +164,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg hover-lift">
-                <Clock className="w-6 h-6 text-green-600 mt-1 flex-shrink-0" />
+                <Clock className="w-6 h-6 text-orange-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Business Hours</h3>
                   <div className="text-sm text-gray-600 space-y-1">
@@ -198,7 +198,7 @@ export default function Contact() {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className={`w-full p-3 text-sm sm:text-base border ${errors.name ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent`}
+                    className={`w-full p-3 text-sm sm:text-base border ${errors.name ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent`}
                     placeholder="John Doe"
                   />
                   {errors.name && <p className="mt-1 text-sm text-red-600">{errors.name}</p>}
@@ -215,7 +215,7 @@ export default function Contact() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className={`w-full p-3 text-sm sm:text-base border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent`}
+                      className={`w-full p-3 text-sm sm:text-base border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent`}
                       placeholder="john@example.com"
                     />
                     {errors.email && <p className="mt-1 text-sm text-red-600">{errors.email}</p>}
@@ -231,7 +231,7 @@ export default function Contact() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className={`w-full p-3 text-sm sm:text-base border ${errors.phone ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent`}
+                      className={`w-full p-3 text-sm sm:text-base border ${errors.phone ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent`}
                       placeholder="+234 800 000 0000"
                     />
                     {errors.phone && <p className="mt-1 text-sm text-red-600">{errors.phone}</p>}
@@ -248,7 +248,7 @@ export default function Contact() {
                     name="title"
                     value={formData.title}
                     onChange={handleChange}
-                    className={`w-full p-3 text-sm sm:text-base border ${errors.title ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent`}
+                    className={`w-full p-3 text-sm sm:text-base border ${errors.title ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent`}
                     placeholder="How can we help you?"
                   />
                   {errors.title && <p className="mt-1 text-sm text-red-600">{errors.title}</p>}
@@ -264,7 +264,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     rows="5"
-                    className={`w-full p-3 text-sm sm:text-base border ${errors.message ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent resize-none`}
+                    className={`w-full p-3 text-sm sm:text-base border ${errors.message ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent resize-none`}
                     placeholder="Tell us more about your requirements..."
                   ></textarea>
                   {errors.message && <p className="mt-1 text-sm text-red-600">{errors.message}</p>}
@@ -273,7 +273,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition-all duration-300 font-medium text-sm sm:text-base flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full bg-orange-600 text-white py-3 px-6 rounded-lg hover:bg-orange-700 transition-all duration-300 font-medium text-sm sm:text-base flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? (
                     <>
@@ -291,7 +291,7 @@ export default function Contact() {
 
               {status.message && (
                 <div className={`mt-6 p-4 rounded-lg flex items-start ${
-                  status.type === 'success' ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'
+                  status.type === 'success' ? 'bg-orange-50 text-orange-800' : 'bg-red-50 text-red-800'
                 }`}>
                   {status.type === 'success' ? (
                     <CheckCircle className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />
@@ -324,3 +324,4 @@ export default function Contact() {
     </div>
   );
 }
+

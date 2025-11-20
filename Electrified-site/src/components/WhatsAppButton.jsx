@@ -10,7 +10,7 @@ export default function WhatsAppButton() {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-8 left-8 z-50 p-4 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 hover:scale-110 animate-fade-in group"
+      className="fixed bottom-8 left-8 z-50 p-4 bg-orange-500 text-white rounded-full shadow-lg hover:bg-orange-600 transition-all duration-300 hover:scale-110 animate-fade-in group"
       aria-label="Contact us on WhatsApp"
     >
       <MessageCircle className="w-6 h-6" />
@@ -20,3 +20,4 @@ export default function WhatsAppButton() {
     </a>
   );
 }
+

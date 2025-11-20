@@ -80,11 +80,11 @@ function FAQItem({ question, answer }) {
     <div className="border-b border-gray-200 last:border-0">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full py-4 flex justify-between items-center text-left hover:text-green-600 transition-colors"
+        className="w-full py-4 flex justify-between items-center text-left hover:text-orange-600 transition-colors"
       >
         <span className="font-medium text-gray-900 pr-4">{question}</span>
         <ChevronDown 
-          className={`w-5 h-5 text-green-600 flex-shrink-0 transition-transform duration-300 ${
+          className={`w-5 h-5 text-orange-600 flex-shrink-0 transition-transform duration-300 ${
             isOpen ? "transform rotate-180" : ""
           }`}
         />
@@ -109,7 +109,7 @@ export default function FAQ() {
       />
 
       {/* Banner */}
-      <section className="relative h-64 sm:h-72 md:h-80 bg-gradient-to-r from-green-600 to-green-800 flex items-center justify-center">
+      <section className="relative h-64 sm:h-72 md:h-80 bg-gradient-to-r from-orange-600 to-orange-800 flex items-center justify-center">
         <div className="relative z-10 text-center px-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white">
             Frequently Asked Questions
@@ -125,7 +125,7 @@ export default function FAQ() {
         <div className="max-w-4xl mx-auto">
           {faqs.map((category, idx) => (
             <div key={idx} className="mb-12 last:mb-0">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-green-600">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-orange-600">
                 {category.category}
               </h2>
               <div className="bg-gray-50 rounded-lg p-6">
@@ -138,14 +138,14 @@ export default function FAQ() {
         </div>
 
         {/* Still have questions? */}
-        <div className="max-w-4xl mx-auto mt-12 text-center bg-green-50 rounded-xl p-8">
+        <div className="max-w-4xl mx-auto mt-12 text-center bg-orange-50 rounded-xl p-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Still Have Questions?</h3>
           <p className="text-gray-600 mb-6">
             Can't find the answer you're looking for? Our team is here to help.
           </p>
           <a
             href="/contact"
-            className="inline-block px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium"
+            className="inline-block px-8 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium"
           >
             Contact Us
           </a>
@@ -154,3 +154,4 @@ export default function FAQ() {
     </div>
   );
 }
+

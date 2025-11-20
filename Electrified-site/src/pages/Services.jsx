@@ -53,7 +53,7 @@ const services = [
       "Security management",
       "Health & safety compliance"
     ],
-    color: "from-green-500 to-teal-500"
+    color: "from-orange-500 to-teal-500"
   },
   {
     icon: Trash2,
@@ -97,7 +97,7 @@ function ServiceCard({ service }) {
         <ul className="space-y-2 mb-6">
           {service.features.map((feature, idx) => (
             <li key={idx} className="flex items-start text-sm text-gray-700">
-              <CheckCircle className="w-4 h-4 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
+              <CheckCircle className="w-4 h-4 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
               <span>{feature}</span>
             </li>
           ))}
@@ -105,7 +105,7 @@ function ServiceCard({ service }) {
 
         <Link
           to="/contact"
-          className="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium"
+          className="block w-full text-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium"
         >
           Request Service
         </Link>
@@ -169,8 +169,8 @@ export default function Services() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Leaf className="w-8 h-8 text-green-600" />
+              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Leaf className="w-8 h-8 text-orange-600" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Eco-Friendly</h3>
               <p className="text-gray-600">
@@ -179,8 +179,8 @@ export default function Services() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-green-600" />
+              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="w-8 h-8 text-orange-600" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Certified Experts</h3>
               <p className="text-gray-600">
@@ -189,8 +189,8 @@ export default function Services() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="w-8 h-8 text-green-600" />
+              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="w-8 h-8 text-orange-600" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Quality Guaranteed</h3>
               <p className="text-gray-600">
@@ -221,7 +221,7 @@ export default function Services() {
               { step: "4", title: "Support", desc: "Ongoing maintenance and service" }
             ].map((item, idx) => (
               <div key={idx} className="text-center">
-                <div className="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                <div className="w-16 h-16 bg-orange-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                   {item.step}
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -233,7 +233,7 @@ export default function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-green-600 to-green-800 text-white">
+      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-orange-600 to-orange-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             Ready to Get Started?
@@ -244,13 +244,13 @@ export default function Services() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
-              className="px-8 py-4 bg-white text-green-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
+              className="px-8 py-4 bg-white text-orange-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
             >
               Request a Quote
             </Link>
             <a
               href="tel:+2348082999567"
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white text-white rounded-lg hover:bg-white hover:text-green-600 transition-all duration-300 font-semibold"
+              className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white text-white rounded-lg hover:bg-white hover:text-orange-600 transition-all duration-300 font-semibold"
             >
               Call Us Now
             </a>
@@ -260,3 +260,4 @@ export default function Services() {
     </div>
   );
 }
+

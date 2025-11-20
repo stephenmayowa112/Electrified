@@ -74,49 +74,49 @@ function App() {
           <div className="hidden lg:flex space-x-6 xl:space-x-8 text-gray-700 font-medium">
             <Link 
               to="/" 
-              className={`hover:text-green-600 transition-colors ${isActive("/") ? "text-green-600 font-semibold" : ""}`}
+              className={`hover:text-orange-600 transition-colors ${isActive("/") ? "text-orange-600 font-semibold" : ""}`}
             >
               Home
             </Link>
             <Link 
               to="/about" 
-              className={`hover:text-green-600 transition-colors ${isActive("/about") ? "text-green-600 font-semibold" : ""}`}
+              className={`hover:text-orange-600 transition-colors ${isActive("/about") ? "text-orange-600 font-semibold" : ""}`}
             >
               About
             </Link>
             <Link 
               to="/services" 
-              className={`hover:text-green-600 transition-colors ${isActive("/services") ? "text-green-600 font-semibold" : ""}`}
+              className={`hover:text-orange-600 transition-colors ${isActive("/services") ? "text-orange-600 font-semibold" : ""}`}
             >
               Services
             </Link>
             <Link 
               to="/why-us" 
-              className={`hover:text-green-600 transition-colors ${isActive("/why-us") ? "text-green-600 font-semibold" : ""}`}
+              className={`hover:text-orange-600 transition-colors ${isActive("/why-us") ? "text-orange-600 font-semibold" : ""}`}
             >
               Why Us
             </Link>
             <Link 
               to="/clients" 
-              className={`hover:text-green-600 transition-colors ${isActive("/clients") ? "text-green-600 font-semibold" : ""}`}
+              className={`hover:text-orange-600 transition-colors ${isActive("/clients") ? "text-orange-600 font-semibold" : ""}`}
             >
               Clients
             </Link>
             <Link 
               to="/team" 
-              className={`hover:text-green-600 transition-colors ${isActive("/team") ? "text-green-600 font-semibold" : ""}`}
+              className={`hover:text-orange-600 transition-colors ${isActive("/team") ? "text-orange-600 font-semibold" : ""}`}
             >
               Team
             </Link>
             <Link 
               to="/faq" 
-              className={`hover:text-green-600 transition-colors ${isActive("/faq") ? "text-green-600 font-semibold" : ""}`}
+              className={`hover:text-orange-600 transition-colors ${isActive("/faq") ? "text-orange-600 font-semibold" : ""}`}
             >
               FAQ
             </Link>
             <Link 
               to="/contact" 
-              className={`hover:text-green-600 transition-colors ${isActive("/contact") ? "text-green-600 font-semibold" : ""}`}
+              className={`hover:text-orange-600 transition-colors ${isActive("/contact") ? "text-orange-600 font-semibold" : ""}`}
             >
               Contact
             </Link>
@@ -126,7 +126,7 @@ function App() {
           <div className="hidden lg:block">
             <Link
               to="/contact"
-              className="px-4 py-2 bg-green-600 text-white rounded-md shadow hover:bg-green-700 transition-all duration-300 hover:scale-105"
+              className="px-4 py-2 bg-orange-600 text-white rounded-md shadow hover:bg-orange-700 transition-all duration-300 hover:scale-105"
             >
               Get a Quote
             </Link>
@@ -164,55 +164,55 @@ function App() {
               <div className="px-4 py-3 space-y-3 max-h-[calc(100vh-80px)] overflow-y-auto">
                 <Link 
                   to="/" 
-                  className={`block py-2 font-medium ${isActive("/") ? "text-green-600" : "text-gray-700 hover:text-green-600"}`}
+                  className={`block py-2 font-medium ${isActive("/") ? "text-orange-600" : "text-gray-700 hover:text-orange-600"}`}
                 >
                   Home
                 </Link>
                 <Link 
                   to="/about" 
-                  className={`block py-2 font-medium ${isActive("/about") ? "text-green-600" : "text-gray-700 hover:text-green-600"}`}
+                  className={`block py-2 font-medium ${isActive("/about") ? "text-orange-600" : "text-gray-700 hover:text-orange-600"}`}
                 >
                   About
                 </Link>
                 <Link 
                   to="/services" 
-                  className={`block py-2 font-medium ${isActive("/services") ? "text-green-600" : "text-gray-700 hover:text-green-600"}`}
+                  className={`block py-2 font-medium ${isActive("/services") ? "text-orange-600" : "text-gray-700 hover:text-orange-600"}`}
                 >
                   Services
                 </Link>
                 <Link 
                   to="/why-us" 
-                  className={`block py-2 font-medium ${isActive("/why-us") ? "text-green-600" : "text-gray-700 hover:text-green-600"}`}
+                  className={`block py-2 font-medium ${isActive("/why-us") ? "text-orange-600" : "text-gray-700 hover:text-orange-600"}`}
                 >
                   Why Us
                 </Link>
                 <Link 
                   to="/clients" 
-                  className={`block py-2 font-medium ${isActive("/clients") ? "text-green-600" : "text-gray-700 hover:text-green-600"}`}
+                  className={`block py-2 font-medium ${isActive("/clients") ? "text-orange-600" : "text-gray-700 hover:text-orange-600"}`}
                 >
                   Clients
                 </Link>
                 <Link 
                   to="/team" 
-                  className={`block py-2 font-medium ${isActive("/team") ? "text-green-600" : "text-gray-700 hover:text-green-600"}`}
+                  className={`block py-2 font-medium ${isActive("/team") ? "text-orange-600" : "text-gray-700 hover:text-orange-600"}`}
                 >
                   Team
                 </Link>
                 <Link 
                   to="/faq" 
-                  className={`block py-2 font-medium ${isActive("/faq") ? "text-green-600" : "text-gray-700 hover:text-green-600"}`}
+                  className={`block py-2 font-medium ${isActive("/faq") ? "text-orange-600" : "text-gray-700 hover:text-orange-600"}`}
                 >
                   FAQ
                 </Link>
                 <Link 
                   to="/contact" 
-                  className={`block py-2 font-medium ${isActive("/contact") ? "text-green-600" : "text-gray-700 hover:text-green-600"}`}
+                  className={`block py-2 font-medium ${isActive("/contact") ? "text-orange-600" : "text-gray-700 hover:text-orange-600"}`}
                 >
                   Contact
                 </Link>
                 <Link
                   to="/contact"
-                  className="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md shadow hover:bg-green-700"
+                  className="block w-full text-center px-4 py-2 bg-orange-600 text-white rounded-md shadow hover:bg-orange-700"
                 >
                   Get a Quote
                 </Link>
@@ -250,3 +250,4 @@ function App() {
 }
 
 export default App;
+

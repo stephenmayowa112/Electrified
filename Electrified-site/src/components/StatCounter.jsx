@@ -49,3 +49,4 @@ export default function StatCounter({ end, duration = 2000, suffix = "", prefix 
     </span>
   );
 }
+

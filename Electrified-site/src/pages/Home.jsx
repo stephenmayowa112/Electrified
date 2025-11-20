@@ -93,20 +93,20 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               to="/contact"
-              className="px-8 py-4 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl hover:scale-105 inline-flex items-center"
+              className="px-8 py-4 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl hover:scale-105 inline-flex items-center"
             >
               Get a Free Quote
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
             <Link
               to="/services"
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border-2 border-white rounded-lg hover:bg-white hover:text-green-600 transition-all duration-300 font-semibold"
+              className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border-2 border-white rounded-lg hover:bg-white hover:text-orange-600 transition-all duration-300 font-semibold"
             >
               Our Services
             </Link>
             <a
               href="tel:+2348082999567"
-              className="px-8 py-4 bg-white text-green-600 rounded-lg hover:bg-gray-100 transition-all duration-300 font-semibold inline-flex items-center"
+              className="px-8 py-4 bg-white text-orange-600 rounded-lg hover:bg-gray-100 transition-all duration-300 font-semibold inline-flex items-center"
             >
               <Phone className="mr-2 w-5 h-5" />
               Call Now
@@ -149,7 +149,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-12 sm:py-16 bg-green-600 text-white">
+      <section className="py-12 sm:py-16 bg-orange-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
@@ -192,7 +192,7 @@ export default function Home() {
           </p>
           <Link
             to="/about"
-            className="inline-block mt-6 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium"
+            className="inline-block mt-6 px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium"
           >
             Learn More About Us
           </Link>
@@ -237,7 +237,7 @@ export default function Home() {
           <div className="text-center mt-10">
             <Link
               to="/services"
-              className="inline-block px-8 py-3 border-2 border-green-600 text-green-600 rounded-lg hover:bg-green-600 hover:text-white transition-all duration-300 font-medium"
+              className="inline-block px-8 py-3 border-2 border-orange-600 text-orange-600 rounded-lg hover:bg-orange-600 hover:text-white transition-all duration-300 font-medium"
             >
               View All Services
             </Link>
@@ -289,7 +289,7 @@ export default function Home() {
           <div className="text-center mt-10">
             <Link
               to="/clients"
-              className="inline-block px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium"
+              className="inline-block px-8 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium"
             >
               View All Clients
             </Link>
@@ -298,7 +298,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-green-600 to-green-800 text-white">
+      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-orange-600 to-orange-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             Ready to Power Your Future?
@@ -309,14 +309,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
-              className="px-8 py-4 bg-white text-green-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold inline-flex items-center justify-center"
+              className="px-8 py-4 bg-white text-orange-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold inline-flex items-center justify-center"
             >
               Get Started Today
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
             <a
               href="tel:+2348082999567"
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white text-white rounded-lg hover:bg-white hover:text-green-600 transition-all duration-300 font-semibold inline-flex items-center justify-center"
+              className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white text-white rounded-lg hover:bg-white hover:text-orange-600 transition-all duration-300 font-semibold inline-flex items-center justify-center"
             >
               <Phone className="mr-2 w-5 h-5" />
               +234 808 299 9567
@@ -327,3 +327,4 @@ export default function Home() {
     </div>
   );
 }
+

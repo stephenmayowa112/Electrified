@@ -63,7 +63,7 @@ function TeamMemberCard({ member }) {
               className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors"
               aria-label={`Email ${member.name}`}
             >
-              <Mail className="w-5 h-5 text-green-600" />
+              <Mail className="w-5 h-5 text-orange-600" />
             </a>
             <a
               href={member.linkedin}
@@ -72,14 +72,14 @@ function TeamMemberCard({ member }) {
               className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors"
               aria-label={`${member.name}'s LinkedIn`}
             >
-              <Linkedin className="w-5 h-5 text-green-600" />
+              <Linkedin className="w-5 h-5 text-orange-600" />
             </a>
           </div>
         </div>
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
-        <p className="text-green-600 font-medium text-sm mb-3">{member.position}</p>
+        <p className="text-orange-600 font-medium text-sm mb-3">{member.position}</p>
         <p className="text-gray-600 text-sm leading-relaxed">{member.bio}</p>
       </div>
     </div>
@@ -145,13 +145,13 @@ export default function Team() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium"
+              className="px-8 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium"
             >
               View Open Positions
             </a>
             <a
               href="mailto:careers@electrifiedengineering.com"
-              className="px-8 py-3 border-2 border-green-600 text-green-600 rounded-lg hover:bg-green-600 hover:text-white transition-all duration-300 font-medium"
+              className="px-8 py-3 border-2 border-orange-600 text-orange-600 rounded-lg hover:bg-orange-600 hover:text-white transition-all duration-300 font-medium"
             >
               Send Your CV
             </a>
@@ -170,7 +170,7 @@ export default function Team() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-md text-center">
-              <div className="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🚀</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Growth Opportunities</h3>
@@ -180,7 +180,7 @@ export default function Team() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-md text-center">
-              <div className="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🤝</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Collaborative Culture</h3>
@@ -190,7 +190,7 @@ export default function Team() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-md text-center">
-              <div className="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🌍</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Make an Impact</h3>
@@ -204,3 +204,4 @@ export default function Team() {
     </div>
   );
 }
+

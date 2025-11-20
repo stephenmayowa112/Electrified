@@ -10,7 +10,7 @@ export default function TestimonialCard({ name, position, company, content, rati
       </div>
       <p className="text-gray-700 mb-6 italic">"{content}"</p>
       <div className="flex items-center">
-        <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-bold mr-3">
+        <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center text-orange-600 font-bold mr-3">
           {image ? (
             <img src={image} alt={name} className="w-12 h-12 rounded-full object-cover" />
           ) : (
@@ -25,3 +25,4 @@ export default function TestimonialCard({ name, position, company, content, rati
     </div>
   );
 }
+
