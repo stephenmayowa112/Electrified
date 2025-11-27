@@ -15,7 +15,7 @@ const bannerImages = [
 
 const clientLogos = [
   { name: "Sterling Bank", logo: "/logos/sterling.png" },
-  { name: "9 Mobile", logo: "/logos/9mobile.png" },
+  { name: "T2", logo: "/logos/9mobile.png" },
   { name: "CBN", logo: "/logos/cbn.jpg" },
   { name: "Cisco", logo: "/logos/cisco.png" },
   { name: "McKinsey", logo: "/logos/mckinsey.png" },

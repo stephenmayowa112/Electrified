@@ -11,7 +11,7 @@ const clients = [
     services: "Solar Installation, Facilities Management"
   },
   {
-    name: "9 Mobile",
+    name: "T2",
     logo: "/logos/9mobile.png",
     location: "Nationwide",
     industry: "Telecommunications",
