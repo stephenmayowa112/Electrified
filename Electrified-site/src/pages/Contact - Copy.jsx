@@ -24,24 +24,24 @@ export default function Contact() {
             </h2>
 
             <div className="flex items-start space-x-4">
-              <MapPin className="w-6 h-6 text-orange-600 mt-1" />
+              <MapPin className="w-6 h-6 text-cyan-600 mt-1" />
               <p className="text-gray-700">
                 77 Awolowo Road, Ikoyi, Lagos, Nigeria
               </p>
             </div>
 
             <div className="flex items-start space-x-4">
-              <Phone className="w-6 h-6 text-orange-600 mt-1" />
+              <Phone className="w-6 h-6 text-cyan-600 mt-1" />
               <p className="text-gray-700">+234 (0) 808 299 9567</p>
             </div>
 
             <div className="flex items-start space-x-4">
-              <Mail className="w-6 h-6 text-orange-600 mt-1" />
+              <Mail className="w-6 h-6 text-cyan-600 mt-1" />
               <p className="text-gray-700">info@electrifiedengineering.com</p>
             </div>
 
             <div className="flex items-start space-x-4">
-              <Globe className="w-6 h-6 text-orange-600 mt-1" />
+              <Globe className="w-6 h-6 text-cyan-600 mt-1" />
               <p className="text-gray-700">www.electrifiedengineering.com</p>
             </div>
           </div>
@@ -55,21 +55,21 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-600"
               />
               <input
                 type="email"
                 placeholder="Your Email"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-600"
               />
               <textarea
                 placeholder="Your Message"
                 rows="4"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-600"
               ></textarea>
               <button
                 type="submit"
-                className="w-full bg-orange-600 text-white py-3 rounded-lg hover:bg-orange-700"
+                className="w-full bg-cyan-600 text-white py-3 rounded-lg hover:bg-cyan-700"
               >
                 Send Message
               </button>

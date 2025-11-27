@@ -84,9 +84,9 @@ export default function About() {
 
             <p>
               Our team of experienced engineers and technicians has successfully deployed
-              over <span className="font-semibold text-orange-700">1.07MW</span> of solar
+              over <span className="font-semibold text-cyan-700">1.07MW</span> of solar
               power across Nigeria, with a goal to reach{" "}
-              <span className="font-semibold text-orange-700">2MW</span> by the end of 2025.
+              <span className="font-semibold text-cyan-700">2MW</span> by the end of 2025.
               We are expanding into other African markets and the United States, forming
               strategic partnerships with global leaders in solar and FM industries.
             </p>
@@ -106,8 +106,8 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Mission */}
             <div className="bg-white p-8 rounded-xl shadow-md hover-lift">
-              <div className="w-14 h-14 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                <Target className="w-8 h-8 text-orange-600" />
+              <div className="w-14 h-14 bg-cyan-100 rounded-lg flex items-center justify-center mb-4">
+                <Target className="w-8 h-8 text-cyan-600" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
               <p className="text-gray-700 leading-relaxed">
@@ -119,8 +119,8 @@ export default function About() {
 
             {/* Vision */}
             <div className="bg-white p-8 rounded-xl shadow-md hover-lift">
-              <div className="w-14 h-14 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                <Eye className="w-8 h-8 text-orange-600" />
+              <div className="w-14 h-14 bg-cyan-100 rounded-lg flex items-center justify-center mb-4">
+                <Eye className="w-8 h-8 text-cyan-600" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
               <p className="text-gray-700 leading-relaxed">
@@ -148,8 +148,8 @@ export default function About() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map((value, idx) => (
               <div key={idx} className="text-center p-6 bg-gray-50 rounded-xl hover-lift">
-                <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <value.icon className="w-7 h-7 text-orange-600" />
+                <div className="w-14 h-14 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <value.icon className="w-7 h-7 text-cyan-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{value.title}</h3>
                 <p className="text-sm text-gray-600">{value.description}</p>
@@ -173,19 +173,19 @@ export default function About() {
 
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-orange-200 hidden md:block"></div>
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-cyan-200 hidden md:block"></div>
 
             <div className="space-y-8">
               {milestones.map((milestone, idx) => (
                 <div key={idx} className={`flex items-center ${idx % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
                   <div className={`flex-1 ${idx % 2 === 0 ? 'md:text-right md:pr-8' : 'md:text-left md:pl-8'}`}>
                     <div className="bg-white p-6 rounded-xl shadow-md hover-lift">
-                      <span className="text-3xl font-bold text-orange-600">{milestone.year}</span>
+                      <span className="text-3xl font-bold text-cyan-600">{milestone.year}</span>
                       <h3 className="text-xl font-bold text-gray-900 mt-2">{milestone.title}</h3>
                       <p className="text-gray-600 mt-2">{milestone.description}</p>
                     </div>
                   </div>
-                  <div className="hidden md:block w-4 h-4 bg-orange-600 rounded-full border-4 border-white shadow-lg z-10"></div>
+                  <div className="hidden md:block w-4 h-4 bg-cyan-600 rounded-full border-4 border-white shadow-lg z-10"></div>
                   <div className="flex-1"></div>
                 </div>
               ))}
@@ -209,7 +209,7 @@ export default function About() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {certifications.map((cert, idx) => (
               <div key={idx} className="flex items-center space-x-3 bg-gray-50 p-4 rounded-lg">
-                <Award className="w-6 h-6 text-orange-600 flex-shrink-0" />
+                <Award className="w-6 h-6 text-cyan-600 flex-shrink-0" />
                 <span className="text-gray-700 font-medium">{cert}</span>
               </div>
             ))}
@@ -218,7 +218,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-orange-600 to-orange-800 text-white">
+      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-cyan-600 to-cyan-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             Join Us in Building a Sustainable Future
@@ -228,7 +228,7 @@ export default function About() {
           </p>
           <a
             href="/contact"
-            className="inline-block px-8 py-4 bg-white text-orange-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
+            className="inline-block px-8 py-4 bg-white text-cyan-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
           >
             Get in Touch
           </a>

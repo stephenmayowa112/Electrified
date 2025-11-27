@@ -63,7 +63,7 @@ function TeamMemberCard({ member }) {
               className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors"
               aria-label={`Email ${member.name}`}
             >
-              <Mail className="w-5 h-5 text-orange-600" />
+              <Mail className="w-5 h-5 text-cyan-600" />
             </a>
             <a
               href={member.linkedin}
@@ -72,14 +72,14 @@ function TeamMemberCard({ member }) {
               className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors"
               aria-label={`${member.name}'s LinkedIn`}
             >
-              <Linkedin className="w-5 h-5 text-orange-600" />
+              <Linkedin className="w-5 h-5 text-cyan-600" />
             </a>
           </div>
         </div>
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
-        <p className="text-orange-600 font-medium text-sm mb-3">{member.position}</p>
+        <p className="text-cyan-600 font-medium text-sm mb-3">{member.position}</p>
         <p className="text-gray-600 text-sm leading-relaxed">{member.bio}</p>
       </div>
     </div>

@@ -159,15 +159,15 @@ export default function WhyUs() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {reasons.map((reason, idx) => (
               <div key={idx} className="bg-gray-50 rounded-xl p-6 hover-lift group">
-                <div className="w-14 h-14 bg-orange-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-600 transition-colors duration-300">
-                  <reason.icon className="w-7 h-7 text-orange-600 group-hover:text-white transition-colors duration-300" />
+                <div className="w-14 h-14 bg-cyan-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-cyan-600 transition-colors duration-300">
+                  <reason.icon className="w-7 h-7 text-cyan-600 group-hover:text-white transition-colors duration-300" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{reason.title}</h3>
                 <p className="text-sm text-gray-600 mb-4">{reason.description}</p>
                 <ul className="space-y-2">
                   {reason.details.map((detail, dIdx) => (
                     <li key={dIdx} className="flex items-center text-xs text-gray-700">
-                      <CheckCircle2 className="w-3 h-3 text-orange-600 mr-2 flex-shrink-0" />
+                      <CheckCircle2 className="w-3 h-3 text-cyan-600 mr-2 flex-shrink-0" />
                       <span>{detail}</span>
                     </li>
                   ))}
@@ -193,7 +193,7 @@ export default function WhyUs() {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full">
-                <thead className="bg-orange-600 text-white">
+                <thead className="bg-cyan-600 text-white">
                   <tr>
                     <th className="px-6 py-4 text-left font-semibold">Feature</th>
                     <th className="px-6 py-4 text-left font-semibold">Electrified Engineering</th>
@@ -204,7 +204,7 @@ export default function WhyUs() {
                   {comparisons.map((item, idx) => (
                     <tr key={idx} className="hover:bg-gray-50 transition-colors">
                       <td className="px-6 py-4 font-medium text-gray-900">{item.feature}</td>
-                      <td className="px-6 py-4 text-orange-600 font-semibold">{item.us}</td>
+                      <td className="px-6 py-4 text-cyan-600 font-semibold">{item.us}</td>
                       <td className="px-6 py-4 text-gray-600">{item.others}</td>
                     </tr>
                   ))}
@@ -225,8 +225,8 @@ export default function WhyUs() {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl">
-              <div className="text-4xl font-bold text-orange-600 mb-2">1.07MW</div>
+            <div className="text-center p-6 bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-xl">
+              <div className="text-4xl font-bold text-cyan-600 mb-2">1.07MW</div>
               <p className="text-gray-700 font-medium">Solar Power Deployed</p>
             </div>
             <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl">
@@ -237,8 +237,8 @@ export default function WhyUs() {
               <div className="text-4xl font-bold text-purple-600 mb-2">100+</div>
               <p className="text-gray-700 font-medium">Projects Completed</p>
             </div>
-            <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl">
-              <div className="text-4xl font-bold text-orange-600 mb-2">98%</div>
+            <div className="text-center p-6 bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-xl">
+              <div className="text-4xl font-bold text-cyan-600 mb-2">98%</div>
               <p className="text-gray-700 font-medium">Client Satisfaction Rate</p>
             </div>
           </div>
@@ -261,7 +261,7 @@ export default function WhyUs() {
               <p className="text-gray-600 text-sm mb-4">
                 Reduced energy costs by 60% with our solar installation and achieved 99.9% uptime with our maintenance services.
               </p>
-              <div className="flex items-center text-sm text-orange-600 font-medium">
+              <div className="flex items-center text-sm text-cyan-600 font-medium">
                 <CheckCircle2 className="w-4 h-4 mr-1" />
                 <span>60% Cost Reduction</span>
               </div>
@@ -273,7 +273,7 @@ export default function WhyUs() {
               <p className="text-gray-600 text-sm mb-4">
                 Zero downtime achieved across nationwide operations with our backup power solutions and 24/7 support.
               </p>
-              <div className="flex items-center text-sm text-orange-600 font-medium">
+              <div className="flex items-center text-sm text-cyan-600 font-medium">
                 <CheckCircle2 className="w-4 h-4 mr-1" />
                 <span>Zero Downtime</span>
               </div>
@@ -285,7 +285,7 @@ export default function WhyUs() {
               <p className="text-gray-600 text-sm mb-4">
                 Ensured uninterrupted power for critical healthcare operations with reliable backup systems and solar integration.
               </p>
-              <div className="flex items-center text-sm text-orange-600 font-medium">
+              <div className="flex items-center text-sm text-cyan-600 font-medium">
                 <CheckCircle2 className="w-4 h-4 mr-1" />
                 <span>100% Reliability</span>
               </div>
@@ -295,7 +295,7 @@ export default function WhyUs() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-orange-600 to-orange-800 text-white">
+      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-cyan-600 to-cyan-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             Experience the EEL Difference
@@ -306,13 +306,13 @@ export default function WhyUs() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="px-8 py-4 bg-white text-orange-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
+              className="px-8 py-4 bg-white text-cyan-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
             >
               Get Started Today
             </a>
             <a
               href="/clients"
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white text-white rounded-lg hover:bg-white hover:text-orange-600 transition-all duration-300 font-semibold"
+              className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white text-white rounded-lg hover:bg-white hover:text-cyan-600 transition-all duration-300 font-semibold"
             >
               See Our Clients
             </a>

@@ -68,17 +68,17 @@ function ClientCard({ client }) {
         
         <div className="space-y-2 mb-4">
           <div className="flex items-center text-sm text-gray-600">
-            <MapPin className="w-4 h-4 mr-2 text-orange-600" />
+            <MapPin className="w-4 h-4 mr-2 text-cyan-600" />
             <span>{client.location}</span>
           </div>
           <div className="flex items-center text-sm text-gray-600">
-            <Building2 className="w-4 h-4 mr-2 text-orange-600" />
+            <Building2 className="w-4 h-4 mr-2 text-cyan-600" />
             <span>{client.industry}</span>
           </div>
         </div>
 
         <div className="mb-4">
-          <p className="text-xs font-semibold text-orange-600 mb-1">Services Provided:</p>
+          <p className="text-xs font-semibold text-cyan-600 mb-1">Services Provided:</p>
           <p className="text-sm text-gray-700">{client.services}</p>
         </div>
 
@@ -127,19 +127,19 @@ export default function Clients() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-2">50+</div>
+              <div className="text-4xl font-bold text-cyan-600 mb-2">50+</div>
               <p className="text-gray-600">Happy Clients</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-2">100+</div>
+              <div className="text-4xl font-bold text-cyan-600 mb-2">100+</div>
               <p className="text-gray-600">Projects Delivered</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-2">98%</div>
+              <div className="text-4xl font-bold text-cyan-600 mb-2">98%</div>
               <p className="text-gray-600">Satisfaction Rate</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-2">24/7</div>
+              <div className="text-4xl font-bold text-cyan-600 mb-2">24/7</div>
               <p className="text-gray-600">Support Available</p>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Clients() {
                 onClick={() => setSelectedIndustry(industry)}
                 className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
                   selectedIndustry === industry
-                    ? "bg-orange-600 text-white shadow-lg"
+                    ? "bg-cyan-600 text-white shadow-lg"
                     : "bg-white text-gray-700 hover:bg-gray-100"
                 }`}
               >
@@ -195,7 +195,7 @@ export default function Clients() {
           </p>
           <a
             href="/contact"
-            className="inline-block px-8 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium"
+            className="inline-block px-8 py-3 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors font-medium"
           >
             Become Our Next Success Story
           </a>
@@ -203,7 +203,7 @@ export default function Clients() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-orange-600 to-orange-800 text-white">
+      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-cyan-600 to-cyan-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             Ready to Join Our Growing Client Base?
@@ -213,7 +213,7 @@ export default function Clients() {
           </p>
           <a
             href="/contact"
-            className="inline-block px-8 py-4 bg-white text-orange-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
+            className="inline-block px-8 py-4 bg-white text-cyan-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
           >
             Get Started Today
           </a>

@@ -68,20 +68,20 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               to="/contact"
-              className="px-8 py-4 bg-gradient-to-r from-orange-600 to-orange-500 text-white rounded-lg hover:from-orange-700 hover:to-orange-600 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl hover:scale-105 inline-flex items-center"
+              className="px-8 py-4 bg-gradient-to-r from-cyan-600 to-cyan-500 text-white rounded-lg hover:from-cyan-700 hover:to-cyan-600 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl hover:scale-105 inline-flex items-center"
             >
               Get a Free Quote
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
             <Link
               to="/services"
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border-2 border-yellow-300 rounded-lg hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300 font-semibold"
+              className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border-2 border-teal-300 rounded-lg hover:bg-teal-400 hover:text-gray-900 transition-all duration-300 font-semibold"
             >
               Our Services
             </Link>
             <a
               href="tel:+2348082999567"
-              className="px-8 py-4 bg-yellow-400 text-gray-900 rounded-lg hover:bg-yellow-300 transition-all duration-300 font-semibold inline-flex items-center shadow-lg"
+              className="px-8 py-4 bg-teal-400 text-gray-900 rounded-lg hover:bg-teal-300 transition-all duration-300 font-semibold inline-flex items-center shadow-lg"
             >
               <Phone className="mr-2 w-5 h-5" />
               Call Now
@@ -124,29 +124,29 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-12 sm:py-16 bg-gradient-to-r from-orange-600 via-orange-500 to-yellow-500 text-white">
+      <section className="py-12 sm:py-16 bg-gradient-to-r from-cyan-600 via-cyan-500 to-teal-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-yellow-100">
+              <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-teal-100">
                 <StatCounter end={1.07} duration={2000} suffix="MW" />
               </div>
               <p className="text-sm sm:text-base text-white/90">Solar Power Deployed</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-yellow-100">
+              <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-teal-100">
                 <StatCounter end={100} duration={2000} suffix="+" />
               </div>
               <p className="text-sm sm:text-base text-white/90">Projects Completed</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-yellow-100">
+              <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-teal-100">
                 <StatCounter end={50} duration={2000} suffix="+" />
               </div>
               <p className="text-sm sm:text-base text-white/90">Happy Clients</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-yellow-100">
+              <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-teal-100">
                 <StatCounter end={4} duration={2000} suffix=" Years" />
               </div>
               <p className="text-sm sm:text-base text-white/90">Industry Experience</p>
@@ -167,7 +167,7 @@ export default function Home() {
           </p>
           <Link
             to="/about"
-            className="inline-block mt-6 px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium"
+            className="inline-block mt-6 px-6 py-3 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors font-medium"
           >
             Learn More About Us
           </Link>
@@ -212,7 +212,7 @@ export default function Home() {
           <div className="text-center mt-10">
             <Link
               to="/services"
-              className="inline-block px-8 py-3 border-2 border-orange-600 text-orange-600 rounded-lg hover:bg-orange-600 hover:text-white transition-all duration-300 font-medium"
+              className="inline-block px-8 py-3 border-2 border-cyan-600 text-cyan-600 rounded-lg hover:bg-cyan-600 hover:text-white transition-all duration-300 font-medium"
             >
               View All Services
             </Link>
@@ -244,7 +244,7 @@ export default function Home() {
           <div className="text-center mt-10">
             <Link
               to="/clients"
-              className="inline-block px-8 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium"
+              className="inline-block px-8 py-3 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors font-medium"
             >
               View All Clients
             </Link>
@@ -253,7 +253,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-orange-600 via-orange-500 to-yellow-500 text-white">
+      <section className="py-16 px-4 sm:px-6 bg-gradient-to-r from-cyan-600 via-cyan-500 to-teal-500 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             Ready to Power Your Future?
@@ -264,14 +264,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
-              className="px-8 py-4 bg-white text-orange-600 rounded-lg hover:bg-yellow-50 transition-colors font-semibold inline-flex items-center justify-center shadow-lg"
+              className="px-8 py-4 bg-white text-cyan-600 rounded-lg hover:bg-teal-50 transition-colors font-semibold inline-flex items-center justify-center shadow-lg"
             >
               Get Started Today
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
             <a
               href="tel:+2348082999567"
-              className="px-8 py-4 bg-yellow-400 text-gray-900 rounded-lg hover:bg-yellow-300 transition-all duration-300 font-semibold inline-flex items-center justify-center shadow-lg"
+              className="px-8 py-4 bg-teal-400 text-gray-900 rounded-lg hover:bg-teal-300 transition-all duration-300 font-semibold inline-flex items-center justify-center shadow-lg"
             >
               <Phone className="mr-2 w-5 h-5" />
               +234 808 299 9567
