@@ -56,7 +56,7 @@ function App() {
           {/* Logo Section */}
           <Link to="/" className="flex items-center space-x-2 sm:space-x-3 group">
             <img 
-              src="/logo.png" 
+              src="/elctLogo.png" 
               alt="Electrified Engineering Ltd Logo" 
               className="h-10 w-auto sm:h-12 md:h-14 object-contain transition-transform duration-300 group-hover:scale-105"
             />
