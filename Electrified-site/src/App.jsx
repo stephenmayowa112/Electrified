@@ -61,8 +61,9 @@ function App() {
               className="h-10 w-auto sm:h-12 md:h-14 object-contain transition-transform duration-300 group-hover:scale-105"
             />
             <div>
-              <h1 className="font-semibold text-gray-900 text-sm sm:text-base">
-                Electrified Engineering Ltd
+              <h1 className="font-semibold text-gray-900">
+                <span className="text-lg sm:text-xl md:text-2xl">Electrified</span>
+                <span className="text-[1em] sm:text-[1em] md:text-[1em] ml-1">Engineering Ltd</span>
               </h1>
               <p className="text-xs sm:text-sm text-gray-500 hidden sm:block">
                 Sustainable Power & Facilities Management

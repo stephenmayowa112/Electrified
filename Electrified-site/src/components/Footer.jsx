@@ -12,9 +12,12 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/logo.png" alt="EEL Logo" className="h-10 w-auto" />
+              <img src="/elctLogo.png" alt="EEL Logo" className="h-10 w-auto" />
             </div>
-            <h3 className="text-white font-bold text-lg mb-2">Electrified Engineering Ltd</h3>
+            <h3 className="text-white font-bold mb-2">
+              <span className="text-2xl">Electrified</span>
+              <span className="text-base ml-1">Engineering Ltd</span>
+            </h3>
             <p className="text-sm mb-4">
               Sustainable Power & Facilities Management solutions across Nigeria and Sub-Saharan Africa.
             </p>
@@ -98,7 +101,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-center md:text-left">
-              © {currentYear} Electrified Engineering Limited. All rights reserved.
+              © {currentYear} <span className="font-semibold">Electrified</span> <span className="text-xs">Engineering Limited</span>. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy" className="hover:text-cyan-500 transition-colors">Privacy Policy</Link>
